@@ -1,6 +1,6 @@
 # _Cryptosquare_
 
-#### April 2nd. 2020
+#### April 2nd, 2020
 
 ## Description
 
