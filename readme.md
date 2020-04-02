@@ -1,6 +1,6 @@
 # _Cryptosquare_
 
-#### By _**Nathan Watkins-Hoagland & Dom Montelongo**_ | April 2nd. 2020
+#### April 2nd. 2020
 
 ## Description
 
@@ -45,15 +45,10 @@ git clone {link to repository}
 #### Cryptosquare
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
-| The program should identify counts of 1000 as M | '1000' | 'M'  |
-| The program should identify counts of 500 as D | '500' | 'D' |  
-| The program should identify counts of 100 as C | '100' | 'C' |
-| The program should identify counts of 50 as L | '50' | 'L' |
-| The program should identify counts of 10 as X | '10' | 'X' |
-| The program should identify counts of 5 as V | '5' | 'V' |
-| The program should identify counts of 1 as I | '1' | 'I'  |
-| The program should identify counts of 4 as IV | '4' | 'IV'  |
-| The program should identify counts of 9 as IX | '9' | 'IX'  |
+| The program determines the number of columns/rows to use based on message length | 'Glad you came' | 'letters < 16, 4x4'  |
+| The program takes the message and splits each word into there own column and row | 'Red Car' | '[red],[car]' |  
+| The program should identify if the message fits | 'hidalgo' | 'hida lgo' |
+| The program should slice the array into five character increments | 'Have a nice day' | 'hifei acedl' |
 
 
 ---
